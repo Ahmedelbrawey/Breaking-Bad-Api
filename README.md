@@ -18,6 +18,8 @@ A simple API to retrieve some quotes of Breaking Bad and info about author .
 
 In a js file that contains comments for each code and function to explain the code and how the project works
 
+**To preview Breaking-Bad-Api [Preview](https://ahmedelbrawey.github.io/Breaking-Bad-Api/)**
+
 ## 🚀 About Me
 I'm a Front End developer...
 
