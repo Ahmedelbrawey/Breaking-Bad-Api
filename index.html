@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrap">
+        <header class="page-header">
+            <h1 class="page-title">
+                The Breaking Bad
+            </h1>
+            <div class="page-header-top-nav">
+                <form id="select-navigator" class="select-navigator" action="">
+                    <select name="select-navigator-select" 
+                        id="select-navigator-select" class="custom-select" 
+                        onchange="getCh(this.value),get_quotes(this.value)">
+                        
+                        
+                    </select>
+                </form>
+                
+            </div>
+        </header>
+        <div class="article-grid">
+            <article class="article-card article" id="">
+                <div class="article-thumbnail-wrap">
+                    <img class="article-thumbnail" src="https://img.youm7.com/large/20170128030926926.jpg" id="img">
+                    
+                    
+                </div>
+                <div class="article-article">
+                    
+                    <h1 id="name-id"></h1>
+                    <h3 id="nackName"></h3>
+                    <h4 id="birthday"></h4>
+                    <h3 id="portrayed"></h3>
+                    <div class="card-content">
+                        <h3>Random Quote say !!!</h3>
+                        <div id="quote"></div>
+                    </div>
+
+
+            </article>
+        </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
